@@ -1,0 +1,7 @@
+CHECKLIST KETENTUAN TUGAS KALKULATOR
+
+1. DONE - Menggunakan 1 Activity saja (MainActivity).
+2. DONE - 2 EditText angka dan 4 Button operasi berada di Activity utama.
+3. DONE - Terdapat 4 Fragment untuk menampilkan history dan hasil tiap operasi (+, -, *, /).
+4. DONE - History operasi terus bertambah selama aplikasi berjalan sampai aplikasi ditutup.
+5. DONE - Jika hasil perhitungan kurang dari 0, background Activity berubah menjadi merah.

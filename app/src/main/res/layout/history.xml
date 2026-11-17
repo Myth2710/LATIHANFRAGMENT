@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#E7D8F5">
+
+    <TextView
+        android:id="@+id/txtJudulHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HISTORY OPERASI"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:padding="12dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Belum ada history operasi"
+            android:textSize="16sp"
+            android:padding="12dp" />
+    </ScrollView>
+
+</LinearLayout>
